@@ -23,7 +23,7 @@ public class DrawNumber {
             } else if (numberFromUser > drawNumber) {
                 System.out.println("To big... ");
             } else {
-                System.out.println("Congratulations! You gues the number for " + numberOfAttempts  +  " attempts");
+                System.out.println("Congratulations! You gues the number at " + numberOfAttempts  +  " attempts");
             }
         }while (drawNumber != numberFromUser);
     }
